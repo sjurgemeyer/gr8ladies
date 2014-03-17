@@ -5,6 +5,6 @@ class ChapterController {
     def index() { }
 
     def show(String country, String state, String city){
-        render(view: '/country/state/city')
+        render(view: "/$country/$state/$city")
     }
 }
